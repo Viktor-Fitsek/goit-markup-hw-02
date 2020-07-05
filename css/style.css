@@ -38,11 +38,13 @@ ul {
 }
 .link:hover,
 .link:focus {
-  color: blue;
+  color: var(--accent-color);
 }
 .logo:hover,
-.logo:focus {
-  color: blue;
+.logo:focus,
+.logo-item:hover,
+.logo-item:focus {
+  color: var(--accent-color);
 }
 
 .logo-item {
@@ -125,6 +127,12 @@ ul {
 
 /*  !.team-titel -> activity-titel*/
 
+.titel-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
 .post {
   font-weight: normal;
   font-size: 16px;
@@ -142,6 +150,7 @@ ul {
 }
 
 .address-list-item {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -149,6 +158,7 @@ ul {
 }
 
 .address-contacts-list-item a {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.17;
@@ -169,7 +179,7 @@ ul {
 .butten-item {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.63x;
+  line-height: 1.63;
   text-align: center;
 }
 
@@ -188,4 +198,4 @@ ul {
   line-height: 1.88;
   color: #757575;
 }
-/* The End today*/
+/* Contacts info*/
