@@ -1,7 +1,190 @@
-h1 {
-  color: aqua;
+/*color logo background: #2196F3;*/
+/* первичный цвет(logo, h) color: #000000;
+вторичный цвет(h2, nav-list) color: #212121;
+цвет текста(p)color: #757575;
+*/
+
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+  --text-background-white: #000000;
+  --text-background-dark: #ffffff;
 }
-.about-me {
-  background-color: brown;
-  color: antiquewhite;
+
+body {
+  background-color: #ffffff;
+  font-family: Roboto;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Header */
+
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.link:hover,
+.link:focus {
+  color: blue;
+}
+.logo:hover,
+.logo:focus {
+  color: blue;
+}
+
+.logo-item {
+  color: var(--text-background-white);
+}
+
+.nav-list a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.contacs-list-item a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+/* Hero! */
+
+.hero-titel {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-background-dark);
+}
+
+.button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--text-background-dark);
+}
+
+/* About us */
+
+.about-us-titel {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.about-us-text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+
+/* Activity */
+.activity-titel,
+.team-titel,
+.customers-titel {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.activity-list-text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--text-background-dark);
+}
+
+/* Team */
+
+/*  !.team-titel -> activity-titel*/
+
+.post {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  color: #757575;
+}
+
+/* Customers */
+
+/*  !.customers-titel ->activity-titel*/
+
+/* Footer */
+.footer-address .logo-item {
+  color: var(--text-background-dark);
+}
+
+.address-list-item {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--text-background-dark);
+}
+
+.address-contacts-list-item a {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.17;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.socials-headline {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--text-background-dark);
+}
+
+/* !!! PORTFOLIO!!! */
+
+/* Button */
+.butten-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63x;
+  text-align: center;
+}
+
+/*  Projects  */
+
+.gallery-titel {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.subtitel {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88;
+  color: #757575;
 }
